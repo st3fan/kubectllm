@@ -24,4 +24,5 @@ func Execute() {
 func init() {
 	// Add subcommands here
 	rootCmd.AddCommand(askCmd)
+	rootCmd.AddCommand(yoloCmd)
 }
